@@ -35,7 +35,7 @@ namespace CSharpDiscovery
             Check.That(sumOfTheArray).Equals(3.0);
         }
 
-        [Test]
+        //[Test]
         //public void AddAMethodOverloadThatMakeASumOfTwoDoubleFromStringRepresentation()
         //{
         //    var sumOfTwoDoubleFromString = "1,0+2";

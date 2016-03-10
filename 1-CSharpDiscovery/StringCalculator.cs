@@ -6,25 +6,16 @@ using System.Threading.Tasks;
 
 namespace CSharpDiscovery
 {
-    class Calculator
+    class StringCalculator : Calculator
     {
 
-        private string name;
-
-
-        //Constructeur surchargé
-        public Calculator(string Name) : base()
+         //Constructeur surchargé
+        public StringCalculator(string Name)
         {
-            this.name = Name;
+           
         }
 
-        //Constructeur par défaut
-        public Calculator()
-        {
-        }
-
-        public string Name { get; set; }
-
+        @Override
         public double Sum(double[] valeurs)
         {
             double resultat = 0;
